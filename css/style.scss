@@ -1,0 +1,56 @@
+$primary-color: #C92A11;
+$accent-color:#a08bb9;
+$body-font: "Roboto", Roboto;
+
+%image-shared{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner{
+    h1 {
+        /* Extra small devices (phones, less than 768px) */
+        font-size: 50px;
+      
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+          font-size: 75px;
+        }
+      
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+          font-size: 100px;
+        }
+      
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+          font-size: 150px;
+        }
+    }
+}
+
+body{
+    font-family:$body-font;
+}
+
+.masthead {
+    @extend %image-shared;
+    height: 100vh;
+    min-height: 400px;
+    background-image: url('../img/sky.jpg');
+}
+
+#motivational-statement{
+    h3{
+        color:$accent-color;
+    }
+}
+.social-icon{
+    color:$accent-color;
+}
+
+.img-thumbnail{
+    border-color: $accent-color !important;
+    background-color: $accent-color !important;
+}
