@@ -20,7 +20,7 @@
       font-size: 150px; } }
 
 body {
-  font-family: "Roboto", Roboto; }
+  font-family: Bevan; }
 
 .masthead {
   height: 100vh;
@@ -32,7 +32,3 @@ body {
 
 .social-icon {
   color: #a08bb9; }
-
-.img-thumbnail {
-  border-color: #a08bb9 !important;
-  background-color: #a08bb9 !important; }
