@@ -1,6 +1,5 @@
-$primary-color: #C92A11;
 $accent-color:#a08bb9;
-$body-font: "Roboto", Roboto;
+$body-font: Bevan;
 
 %image-shared{
     background-size: cover;
@@ -48,9 +47,4 @@ body{
 }
 .social-icon{
     color:$accent-color;
-}
-
-.img-thumbnail{
-    border-color: $accent-color !important;
-    background-color: $accent-color !important;
 }
